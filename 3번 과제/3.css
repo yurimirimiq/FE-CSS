@@ -1,0 +1,25 @@
+/* 아래 코드를 수정해주세요!! 수업 때 배운 grid를 최대한 활용해주세요 */
+
+#wrapper {
+    width: 700px;
+  }
+  .box {
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .box1 {
+    background-color: #3689ff;
+  }
+ .box2 {
+    background-color: #00cf12;
+  }
+  .box3 {
+    background-color: #ff9019;
+ }
+ .box4 {
+    background-color: #ffd000;
+  }
