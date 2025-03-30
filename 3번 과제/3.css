@@ -2,6 +2,11 @@
 
 #wrapper {
     width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    flex-grow: 1;
+  
   }
   .box {
     padding: 15px;
@@ -13,13 +18,19 @@
 
   .box1 {
     background-color: #3689ff;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
   }
  .box2 {
     background-color: #00cf12;
   }
   .box3 {
     background-color: #ff9019;
+    grid-column: 1;
+    grid-row: span 2;
  }
  .box4 {
     background-color: #ffd000;
+    grid-column: 3;
+    grid-row: span2;
   }
