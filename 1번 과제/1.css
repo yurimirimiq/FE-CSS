@@ -4,14 +4,13 @@
     margin: 0;
     }
 .circle-container {
-    background-color: beige;
+    background-color: rgb(136, 168, 255);
     /* 코드 작성 */
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr);
+    display: flex; 
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
-}
+    gap: 10px;
 }
 .circle {
     border-radius: 50%;
@@ -25,21 +24,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-}
-.circle-container {
-    border-radius: 50%;
-    background-color: burlywood;
-    background-color: rgb(114, 150, 120);
-    width: 30vw;
-    height: 30vw;
-    margin-top: 1vw;
-    font-weight: bold;
-    font-size: 50px;
-    /* 코드 작성 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
