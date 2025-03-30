@@ -6,6 +6,12 @@
 .circle-container {
     background-color: beige;
     /* 코드 작성 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 }
 .circle {
     border-radius: 50%;
@@ -16,4 +22,21 @@
     font-weight: bold;
     font-size: 50px;
     /* 코드 작성 */
+}
+
+}
+.circle-container {
+    border-radius: 50%;
+    background-color: burlywood;
+    background-color: rgb(114, 150, 120);
+    width: 30vw;
+    height: 30vw;
+    margin-top: 1vw;
+    font-weight: bold;
+    font-size: 50px;
+    /* 코드 작성 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
