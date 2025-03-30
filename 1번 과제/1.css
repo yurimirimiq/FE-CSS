@@ -6,22 +6,25 @@
 .circle-container {
     background-color: beige;
     /* 코드 작성 */
-    display: flex;
-    flex-wrap: wrap;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    
 }
 }
 .circle {
     border-radius: 50%;
-    background-color: burlywood;
+    background-color: rgb(66, 69, 255);
     width: 30vw;
     height: 30vw;
     margin-top: 1vw;
     font-weight: bold;
     font-size: 50px;
     /* 코드 작성 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 }
